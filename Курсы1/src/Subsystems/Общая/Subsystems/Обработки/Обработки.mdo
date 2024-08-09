@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c79ea982-c090-46ac-967b-55cf883b8a9d">
+  <name>Обработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.УправлениеКонстантами</content>
+  <content>DataProcessor.СозданиеГорода</content>
+  <content>DataProcessor.СозданиеЮридическогоЛица</content>
+  <content>DataProcessor.ЗаполнениеСправочникаЗатраты</content>
+  <content>DataProcessor.СозданиеНоменклатуры</content>
+  <content>DataProcessor.ОткрытиеЭлементаСправочника</content>
+  <content>DataProcessor.ГенерацияТестовойНоменклатуры</content>
+  <content>DataProcessor.ЗаполнениеСотрудников</content>
+  <content>DataProcessor.ВыводСписокСотрудников</content>
+  <content>DataProcessor.РаботаСДокументомПриходнаяНакладная</content>
+  <content>DataProcessor.ЗагрузкаДанных</content>
+  <content>DataProcessor.РаботаСВитриной</content>
+  <content>DataProcessor.ОтборПоИсторииФилиала</content>
+  <content>DataProcessor.ЦеныНоменклатурыПоКонтрагентам</content>
+  <content>DataProcessor.ЗаполнениеРегистраИсторияЮрЛиц</content>
+  <content>DataProcessor.ЗаполнениеКалендаря</content>
+  <content>DataProcessor.ПереоценкаТовара</content>
+  <content>DataProcessor.ЗагрузкаДокументов</content>
+  <content>DataProcessor.КонсольЗапросов</content>
+  <content>DataProcessor.ЗапросСпискаТоваров</content>
+  <content>DataProcessor.ЗапросСпискаГородов</content>
+  <content>DataProcessor.ТаблицаПродаж</content>
+  <content>DataProcessor.ЗаказТовара</content>
+  <content>DataProcessor.ЗаказТовараДЗ2</content>
+  <content>DataProcessor.РаботаСменеджеромВременныхТаблиц</content>
+  <parentSubsystem>Subsystem.Общая</parentSubsystem>
+</mdclass:Subsystem>

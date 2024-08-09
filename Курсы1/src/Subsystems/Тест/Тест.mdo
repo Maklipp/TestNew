@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a9d2add-cc00-45ff-97db-6fdb0cc1ea83">
+  <name>Тест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.Витрина</content>
+  <content>Catalog.Тест</content>
+  <content>100fd2e0-2708-4c0d-8354-07b9eab8afcf</content>
+</mdclass:Subsystem>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="209c05bd-77c9-446b-9c6a-7cf5449c17fa">
+  <name>Итоговая</name>
+  <synonym>
+    <key>ru</key>
+    <value>Итоговая</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>100fd2e0-2708-4c0d-8354-07b9eab8afcf</content>
+  <subsystems>Обработки</subsystems>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Документы</subsystems>
+  <subsystems>РегистрНакоплений</subsystems>
+  <subsystems>РегистрыСведений</subsystems>
+  <subsystems>Отчеты</subsystems>
+</mdclass:Subsystem>

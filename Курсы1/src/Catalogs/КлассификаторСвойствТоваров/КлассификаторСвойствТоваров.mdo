@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad7c61ef-4071-4466-ae20-8484351f73f0">
+  <producedTypes>
+    <objectType typeId="290eb1b8-a1bd-42bc-b721-463149231e17" valueTypeId="19dde64a-61ad-4c4a-b555-7e593f8e3c90"/>
+    <refType typeId="fd9cc8c3-9374-443c-b50a-4b3f3c95a540" valueTypeId="42d8c5d6-0a15-4664-962c-f09207903af0"/>
+    <selectionType typeId="a71cca0c-b732-476f-bde1-c9a146711b0c" valueTypeId="7d6a6b55-bb2d-47ee-928c-844878a69328"/>
+    <listType typeId="65135c9f-4ab2-459d-91df-14e5fe5fd809" valueTypeId="0ff3b540-6508-46b1-a539-926706fe8368"/>
+    <managerType typeId="26728cf8-1583-468e-b6db-1d5133e39566" valueTypeId="f3a00c7f-3765-4640-9e19-e98494da6aa3"/>
+  </producedTypes>
+  <name>КлассификаторСвойствТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классификатор свойств товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КлассификаторСвойствТоваров.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КлассификаторСвойствТоваров.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>ChartOfCharacteristicTypes.ДополнительныеСвойстваТовара</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

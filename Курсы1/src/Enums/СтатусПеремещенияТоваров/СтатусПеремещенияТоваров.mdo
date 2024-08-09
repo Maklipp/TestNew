@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c31b33d1-49ad-447f-b4a6-809baa7a73ec">
+  <producedTypes>
+    <refType typeId="37cf6f16-f2a7-4524-ac04-6544c3cd3cb4" valueTypeId="9c71bc8d-98f9-4498-94db-6ef8fa4311de"/>
+    <listType typeId="b4302756-9403-4e52-b3dc-e2b01ee84ff5" valueTypeId="508b06e7-39c3-4dce-b179-bb122c9cb66a"/>
+    <managerType typeId="2f075981-1813-4a36-9aa8-d9737646163a" valueTypeId="12e763d9-b0ac-448d-91c4-06d86bc54e45"/>
+  </producedTypes>
+  <name>СтатусПеремещенияТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус перемещения товаров</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="80cc7662-d749-4eda-9206-988278e877fe">
+    <name>ВПути</name>
+    <synonym>
+      <key>ru</key>
+      <value>В пути</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ee58bbb-bd92-4d32-87f2-ef077b87324d">
+    <name>Принят</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принят</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

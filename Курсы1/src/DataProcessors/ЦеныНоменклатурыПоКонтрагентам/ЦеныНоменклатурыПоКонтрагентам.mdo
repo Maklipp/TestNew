@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d3ecc06-a77a-4663-8b5f-8fa770b34a1b">
+  <producedTypes>
+    <objectType typeId="3bf04939-c542-4232-82ce-eaabfbfbbeae" valueTypeId="ca7124eb-5beb-4cbf-85f5-26b81faec7c0"/>
+    <managerType typeId="93efebca-0200-419c-a044-8fd3a779419a" valueTypeId="9cfecd30-3d24-4572-b94a-c466c1618d45"/>
+  </producedTypes>
+  <name>ЦеныНоменклатурыПоКонтрагентам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены номенклатуры по контрагентам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЦеныНоменклатурыПоКонтрагентам.Form.Форма</defaultForm>
+  <forms uuid="82f97849-ef02-4e59-8ca9-5183320d55b5">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

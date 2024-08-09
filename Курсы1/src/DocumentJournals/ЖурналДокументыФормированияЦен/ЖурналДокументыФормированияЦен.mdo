@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24be3238-0f99-4f11-b84b-129fdca357f7">
+  <producedTypes>
+    <selectionType typeId="1919c1b2-b75c-4bac-8185-4cc7176f8b8b" valueTypeId="6b04e0ce-1e6a-4450-82bc-b13b7a2a0102"/>
+    <listType typeId="9df7ca11-007a-4061-8179-4ab643c08d64" valueTypeId="cecadb69-fbfb-4c9b-84b7-c74d2b1d98a7"/>
+    <managerType typeId="cca0ad2c-88d4-4de5-9d88-50c116cb4d37" valueTypeId="e132bac3-5071-41e9-a1bb-d7e0567101ba"/>
+  </producedTypes>
+  <name>ЖурналДокументыФормированияЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал документы формирования цен</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ЖурналДокументыФормированияЦен.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.УстановкаЦенНоменклатуры</registeredDocuments>
+  <registeredDocuments>Document.УценкаТовара</registeredDocuments>
+  <columns uuid="c26dd732-2dd0-43d6-8b1b-ed170420acf4">
+    <name>Филиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Филиал</value>
+    </synonym>
+    <references>Document.УстановкаЦенНоменклатуры.Attribute.Филиал</references>
+    <references>Document.УценкаТовара.Attribute.Филиал</references>
+  </columns>
+  <columns uuid="c3611e0e-b458-492b-b687-717aff946120">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <references>Document.УстановкаЦенНоменклатуры.Attribute.Автор</references>
+    <references>Document.УценкаТовара.Attribute.Автор</references>
+  </columns>
+  <forms uuid="a5ce2491-127c-4822-b06e-ccfc210c359e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

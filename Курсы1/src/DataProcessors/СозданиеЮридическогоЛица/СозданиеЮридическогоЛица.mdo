@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f877c06b-bf08-42cc-b631-01369abaf763">
+  <producedTypes>
+    <objectType typeId="9d86cb4b-19f5-48d2-adbd-30d7e1a41b5f" valueTypeId="c3006fd9-d445-4668-a66c-e701b08a7421"/>
+    <managerType typeId="c838b35a-6009-417f-a2c8-15ea50d4a22a" valueTypeId="6744e1bb-602a-42d1-af5d-506dde2f6e2d"/>
+  </producedTypes>
+  <name>СозданиеЮридическогоЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание юридического лица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СозданиеЮридическогоЛица.Form.Форма</defaultForm>
+  <forms uuid="b56e4b5c-5198-46a0-992f-cd1c555ef85f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

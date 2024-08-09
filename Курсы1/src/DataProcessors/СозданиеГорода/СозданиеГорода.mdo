@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4b9cbde-3ccf-4956-8a30-6859417e04bc">
+  <producedTypes>
+    <objectType typeId="bbc2b825-450b-43a4-a87e-3c3709e6bbb2" valueTypeId="ad2dfc9f-3df8-44d3-8c95-6e95e875a39c"/>
+    <managerType typeId="784ad42a-9828-4073-a94c-c270f7ad9e43" valueTypeId="2fb91956-02f5-4e8e-a8b8-df006700638d"/>
+  </producedTypes>
+  <name>СозданиеГорода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание города</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СозданиеГорода.Form.Форма</defaultForm>
+  <forms uuid="443fce85-c023-4439-8e0b-f1fcd0afb80b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

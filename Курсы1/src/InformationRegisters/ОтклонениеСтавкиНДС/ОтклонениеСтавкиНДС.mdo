@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df414047-a244-4449-8923-9d279bbb0177">
+  <producedTypes>
+    <selectionType typeId="7142c40e-015b-41ae-8709-394d18ec0811" valueTypeId="5119ca62-2508-411b-ab21-ba68159833d5"/>
+    <listType typeId="546fab06-b343-46f8-b223-8f2b73afe852" valueTypeId="b766a458-589d-4923-aea5-1e274499ad0e"/>
+    <managerType typeId="5e23e663-d295-4982-a755-e5226470c076" valueTypeId="3c115bdb-3abc-4f6a-b05f-bdde7e4636ef"/>
+    <recordSetType typeId="44bfaddf-19ca-4dac-bde2-4be3ce32c70a" valueTypeId="ec8b6429-5650-4716-b824-d70b5a8a5a81"/>
+    <recordKeyType typeId="9261286f-610b-4f7b-9bd1-69df9e91af40" valueTypeId="3113a3c3-21d3-4e48-baa4-e50162e4d6f1"/>
+    <recordType typeId="8d55305d-9c58-4991-8375-6ed5b92e5472" valueTypeId="29bc3164-6f42-44cd-9d4b-627dc7e8133b"/>
+    <recordManagerType typeId="554d82f5-48ab-4c9e-be62-f4e092a37c5e" valueTypeId="c9525980-2bfa-4818-947c-c91db5d65274"/>
+  </producedTypes>
+  <name>ОтклонениеСтавкиНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отклонение ставки НДС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="50081fc4-a328-42d7-850f-4ffccd8659b7">
+    <name>СтавкаНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка НДС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8f5119f0-5509-4aca-b231-197a64596994">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

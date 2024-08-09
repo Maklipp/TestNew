@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dda7f0ae-cd1c-45b9-be80-f7aee32165c6">
+  <producedTypes>
+    <refType typeId="4f400bef-f752-4a73-898b-fa21c6cd59b2" valueTypeId="7a0bb9cf-ed93-4ed2-9d7d-4fc8d31ce8ae"/>
+    <listType typeId="dfea65bb-8570-4aac-abbb-a6178999ad17" valueTypeId="7650a416-949c-4630-9d39-1c37b45ef662"/>
+    <managerType typeId="c8d63ae2-72ff-422b-b82c-332472f9ddd8" valueTypeId="b5e097c8-297b-4c4d-9848-2b226237cd61"/>
+  </producedTypes>
+  <name>ВидыТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды товаров</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7f5c98ac-1ed4-48ce-913b-06919833e55b">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a42071f6-38ea-44a8-b55a-1737a3504ff5">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="20310594-407a-4361-80a8-d94e97e1b20d">
+    <name>Подарок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подарок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c1385b7-a0f7-4fcd-81c4-e18d1a5524df">
+    <name>СимКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сим карта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="592342cc-47e2-4ac3-b651-8c99b514cd92">
+    <name>Агрегат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Агрегат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b9fd6224-fc2b-44c2-9259-2e3d239403e7">
+    <name>ПодарочнаяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подарочная карта</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fa7507f-b121-4106-bc38-ec04c1868cd3">
+  <producedTypes>
+    <selectionType typeId="22b8a742-b488-4171-8681-9fb5fe338e13" valueTypeId="61c275a4-38df-4c7a-8496-fcb4a1f07062"/>
+    <listType typeId="e9af3ad3-1932-4abf-93ec-d4d19d1fa948" valueTypeId="a225d552-8a5d-4e5f-9ebf-ea761b837f18"/>
+    <managerType typeId="250b86ae-7e6f-458b-9491-74005e683763" valueTypeId="5e9515ab-48b3-43b7-b313-3627ae998a93"/>
+    <recordSetType typeId="4fffb479-d698-423f-a731-f135bce3e778" valueTypeId="77073606-c403-4107-8790-275c878ac46c"/>
+    <recordKeyType typeId="9fb5a76a-91dd-4159-a4b9-4b10ac1fcc4e" valueTypeId="8e9118a4-b929-444c-b0ba-336c3423274d"/>
+    <recordType typeId="0238dc40-8fca-4f87-a774-14eeaf3a1814" valueTypeId="b9e3dab0-1697-4ae9-b38b-3c29ef73696e"/>
+    <recordManagerType typeId="5f09f7f7-a1e0-40b7-88d8-bb7ea3508966" valueTypeId="ce98b428-1e85-4eea-860d-676d22993b58"/>
+  </producedTypes>
+  <name>ПроизводственныйКалендарь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производственный календарь</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ПроизводственныйКалендарь.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9b32c624-2fb1-49a4-a101-928282b7a0a4">
+    <name>ДеньНедели</name>
+    <synonym>
+      <key>ru</key>
+      <value>День недели</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>7</value>
+    </maxValue>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="d15cdf32-3e29-483a-b375-75b8022115d9">
+    <name>ДатаКалендаря</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата календаря</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=dd.MM</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=dd.MM</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0175659e-0ab1-4559-b18d-37c5a2ee3b01">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="49d67cb7-68a3-4c2c-8fd8-7190f5a46014">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="85cd535e-899a-49dd-8e89-b88a7041042e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

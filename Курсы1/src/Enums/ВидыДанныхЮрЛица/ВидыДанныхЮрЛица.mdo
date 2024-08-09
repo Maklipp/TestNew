@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2336ed43-26bc-4361-950c-1e930eee293d">
+  <producedTypes>
+    <refType typeId="8ef62e41-6107-461d-bc06-2b9010d23ecb" valueTypeId="a5428fe7-0bfc-4296-b06a-12ce4b3aecc8"/>
+    <listType typeId="02d06618-5eba-4136-9cb0-d1fa1f3811a7" valueTypeId="9e25bcf4-4c4d-41be-9b6a-627a3dcb5c3a"/>
+    <managerType typeId="277afe0b-915c-4eb6-9785-d7b810f81960" valueTypeId="b6fd6342-55ef-4806-9c00-93f0039cb606"/>
+  </producedTypes>
+  <name>ВидыДанныхЮрЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды данных юр лица</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2fe3442e-2942-4b3e-9750-3db00749a259">
+    <name>КПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>КПП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e6e39902-537c-411b-b35d-25a96414ff66">
+    <name>Руководитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fe7156d2-e791-48b6-aafd-9f2815554c12">
+    <name>ГлБухгалтер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гл бухгалтер</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
