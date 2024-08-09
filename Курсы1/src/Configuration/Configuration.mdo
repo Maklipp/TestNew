@@ -49,6 +49,7 @@
   <constants>Constant.ДатаЗапретаРедактирования</constants>
   <constants>Constant.ТекущаяСтавкаНДС</constants>
   <constants>Constant.Директор</constants>
+  <constants>Constant.Константа1</constants>
   <commonForms>CommonForm.ФормаКонстант</commonForms>
   <catalogs>Catalog.Города</catalogs>
   <catalogs>Catalog.Затраты</catalogs>
