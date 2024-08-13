@@ -159,4 +159,7 @@
   <accumulationRegisters>AccumulationRegister.ЗаказанныеТовары</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ТранзитТоваров</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеСвойстваТовара</chartsOfCharacteristicTypes>
+  <accountingRegisters>AccountingRegister.РегистрБухгалтерии1</accountingRegisters>
+  <businessProcesses>BusinessProcess.БизнесПроцесс1</businessProcesses>
+  <tasks>Task.Задача1</tasks>
 </mdclass:Configuration>
