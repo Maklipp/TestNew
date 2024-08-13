@@ -54,12 +54,13 @@
 		<Metadata name="Catalog.БанковскиеСчета.Form.ФормаСписка.Form" id="ec9b0966-31d1-4971-b96b-4748d05e1b97.0" configVersion="73fe044714ceba4f8d32168e5368aa3300000000"/>
 		<Metadata name="Catalog.БанковскиеСчета.Form.ФормаЭлемента" id="d32c5571-1853-44dd-8013-9fd213cfecb1" configVersion="e4223c1319d49c41b18206d950a84d3900000000"/>
 		<Metadata name="Catalog.БанковскиеСчета.Form.ФормаЭлемента.Form" id="d32c5571-1853-44dd-8013-9fd213cfecb1.0" configVersion="8fa5a0c9f2a89943abd8c336e9db57b100000000"/>
-		<Metadata name="Catalog.Города" id="f84a7dd7-301e-42de-9be9-8e3426c07187" configVersion="8c4b58c02f600d48afd9ea705044994b00000000">
+		<Metadata name="Catalog.Города" id="f84a7dd7-301e-42de-9be9-8e3426c07187" configVersion="7b80fe564da17442bc7cad96a326ee0600000000">
 			<Metadata name="Catalog.Города.Attribute.Округ" id="1c0d39a9-191e-489b-8a0a-00d34f9d40bc"/>
 			<Metadata name="Catalog.Города.Attribute.Численность" id="60d9b7df-d199-4b85-90a1-4a1eed5d5fb7"/>
 		</Metadata>
 		<Metadata name="Catalog.Города.Form.ФормаЭлемента" id="33d287dc-33d5-4c8a-b312-c32c85fe5506" configVersion="a3aafce15f4ebc49b299ffea9257184200000000"/>
 		<Metadata name="Catalog.Города.Form.ФормаЭлемента.Form" id="33d287dc-33d5-4c8a-b312-c32c85fe5506.0" configVersion="c10d0782c279794888b6f94293c91cfa00000000"/>
+		<Metadata name="Catalog.Города.ManagerModule" id="f84a7dd7-301e-42de-9be9-8e3426c07187.3" configVersion="0daff5d5a71f1243b0b51e0fe869d6c400000000"/>
 		<Metadata name="Catalog.Города.Predefined" id="f84a7dd7-301e-42de-9be9-8e3426c07187.1c" configVersion="4c2421bb8bcad84dab4869a92434442300000000"/>
 		<Metadata name="Catalog.Затраты" id="31583ddf-46d8-40c7-9d24-2047ce94c78b" configVersion="b47f8006c9be0a4dab3af676e78c512e00000000">
 			<Metadata name="Catalog.Затраты.Attribute.Примечание" id="c3325f45-5cdb-450a-a4d5-1164a142b5ef"/>
@@ -715,8 +716,8 @@
 		<Metadata name="Report.ТоварВПути.Template.Макет.Template" id="d94a0525-8730-49f6-823e-a2d455f695cb.0" configVersion="f3e50e6e0e5a7b41acfe947d072c4e6b00000000"/>
 		<Metadata name="Report.ТоварВПути.Template.МакетРасшифровки" id="b954df5e-3f24-4b65-8886-282a66083206" configVersion="bee76dbd33071041a8ac998e7bd389cd00000000"/>
 		<Metadata name="Report.ТоварВПути.Template.МакетРасшифровки.Template" id="b954df5e-3f24-4b65-8886-282a66083206.0" configVersion="22d40d19188bd849b0e2d1b7de38c7f900000000"/>
-		<Metadata name="Role.Роль1" id="7140bbcd-77fb-4fea-b874-2a13dfd27910" configVersion="2498af1d135b954990c0e51469a9c46800000000"/>
-		<Metadata name="Role.Роль1.Rights" id="7140bbcd-77fb-4fea-b874-2a13dfd27910.0" configVersion="c902e653a8e8544095c401b11303959d00000000"/>
+		<Metadata name="Role.Роль1" id="7140bbcd-77fb-4fea-b874-2a13dfd27910" configVersion="b008900018802246b2d1e22962799bd400000000"/>
+		<Metadata name="Role.Роль1.Rights" id="7140bbcd-77fb-4fea-b874-2a13dfd27910.0" configVersion="7e3da2213adaf643869fa217c188dbd000000000"/>
 		<Metadata name="Role.Роль2" id="7199e9aa-2d02-4ce2-901a-f7cfae1162cb" configVersion="2849131ec391994e91c5a969f563138900000000"/>
 		<Metadata name="Role.Роль2.Rights" id="7199e9aa-2d02-4ce2-901a-f7cfae1162cb.0" configVersion="c508820553b9c84e82e79238f231cfd800000000"/>
 		<Metadata name="Role.Роль3" id="623c0482-84b1-4545-a3d5-f88c268c6644" configVersion="e2073cd6a7a83548b4ba6e806e98436600000000"/>
