@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="286eca4a-bd34-4274-8298-f0d4881ca08c">
+  <producedTypes>
+    <objectType typeId="fbc57966-4b3b-4ce7-b178-228ac0c4ab5b" valueTypeId="d57015a3-c8de-4bbd-9af9-cac017f9fdba"/>
+    <managerType typeId="13a3e82c-d839-4dc9-9b29-8d510a62d14e" valueTypeId="715cd8d0-a71c-45c0-a4a4-008d5d17d3ac"/>
+  </producedTypes>
+  <name>РасчетОбщихПродажИНакопительногоИтогаСКД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет общих продаж и накопительного итога СКД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.РасчетОбщихПродажИНакопительногоИтогаСКД.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="7c619e31-7852-4f12-a0e0-e2d472db26db">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

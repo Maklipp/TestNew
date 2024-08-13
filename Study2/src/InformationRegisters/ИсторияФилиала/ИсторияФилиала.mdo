@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37db514f-618c-44bb-a64b-4ef84d35eaae">
+  <producedTypes>
+    <selectionType typeId="613780dd-5a09-4e84-bc9f-b3904b3f9491" valueTypeId="33c6b806-c09d-4a92-a38c-3ea56b851d91"/>
+    <listType typeId="aca2ee75-8154-4745-afab-92fa49608a71" valueTypeId="8b83b315-7052-4c88-b083-ee5e661e53a7"/>
+    <managerType typeId="5597ce08-504d-4ee1-a7de-c9f220a84a46" valueTypeId="598fd842-5e20-49aa-8ed0-5fc690fb9e5a"/>
+    <recordSetType typeId="44e736f8-7c0b-4275-b945-2fb3062d4894" valueTypeId="c46c9c05-0a9d-49a0-966f-cabe7b5d3803"/>
+    <recordKeyType typeId="38d7879d-a1a8-4638-b138-424b0c171994" valueTypeId="5f343d76-777b-45e8-9bec-08b0182eebc2"/>
+    <recordType typeId="524ccefa-da36-411f-8bed-9098c1ee4b3e" valueTypeId="89404dd3-4802-4938-ad49-39b500ec1344"/>
+    <recordManagerType typeId="1cdcb901-aedf-4773-9117-d3d0b87c5fbb" valueTypeId="08d09f7a-86a6-4c99-ac81-a6372ba35b03"/>
+  </producedTypes>
+  <name>ИсторияФилиала</name>
+  <synonym>
+    <key>ru</key>
+    <value>История филиала</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6a7bc91c-c5cc-4dcc-b72a-1c09b39651ea">
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="239a43f2-2657-4986-81cb-41991c1cbe83">
+    <name>Филиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Филиал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Филиалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="880049da-70e1-4e7e-adb5-5290469fe0cc">
+    <name>ВидДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид данных</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыДанныхФилиала</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

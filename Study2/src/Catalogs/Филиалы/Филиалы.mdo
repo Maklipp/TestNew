@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="350b3e38-7e7c-42a1-b85e-151ff1301f83">
+  <producedTypes>
+    <objectType typeId="eb744bc4-ceab-44a1-8e7f-74f54569bed0" valueTypeId="1f16b43c-8aa7-434e-bddc-5e165dc1bc0c"/>
+    <refType typeId="593502d3-d435-490a-8ae9-120dfb9160bc" valueTypeId="e2f4a8f3-9829-4acc-8634-5edd3dd71d30"/>
+    <selectionType typeId="96d224be-286f-47e4-921f-dc45e1f51baa" valueTypeId="2ce05a39-80e1-4576-87d7-c5038209c017"/>
+    <listType typeId="faedfc3f-9133-4eed-ab9d-e6673f6a40ca" valueTypeId="be5964d4-e8d7-403b-9e7e-4874ec40e470"/>
+    <managerType typeId="f450a5a5-17a1-481f-8501-131f0d046f6a" valueTypeId="69b59c8e-8ec3-479e-9667-0a5754fd476c"/>
+  </producedTypes>
+  <name>Филиалы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Филиалы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Филиалы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Филиалы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Филиалы.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="70be20a1-cdfa-463c-87ac-4134374a4ce8">
+    <name>Город</name>
+    <synonym>
+      <key>ru</key>
+      <value>Город</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Города</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f67d1014-6790-476c-8130-839e45169fc6">
+    <name>ДатаОткрытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата открытия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="42ed1ba5-c6f7-48d1-ae89-5f96797de518">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5e540e24-9928-498a-a948-1353eef63e5f">
+    <name>ВидФилиала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид филиала</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыФилиалов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="451175df-0b26-4c5c-97e6-1f5f80877009">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

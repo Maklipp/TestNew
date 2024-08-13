@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edda3d8a-4ea7-4eb5-899f-8dabff9aa7d3">
+  <producedTypes>
+    <objectType typeId="c2a64c5b-706a-4c01-a4d0-77940342b559" valueTypeId="29d47a02-cb8d-460b-9021-164aaf45e537"/>
+    <managerType typeId="2cd7d287-8036-44f3-b7b7-3b6fb6ebf2b0" valueTypeId="04e7877b-68a5-4165-8f21-649ade89389e"/>
+  </producedTypes>
+  <name>ПеремещениеТовараНаФилиал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перемещение товара на филиал</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПеремещениеТовараНаФилиал.Form.Форма</defaultForm>
+  <forms uuid="e54b96a7-3a65-4065-add1-1ba67fe3b243">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20cf9017-0b8f-42be-8dec-2fa5817b3703">
+  <producedTypes>
+    <selectionType typeId="bb0e467b-878f-403e-a44b-16125fe9703a" valueTypeId="f0b3890e-ae6d-4684-b42a-fbc4a9be5aef"/>
+    <listType typeId="70ae4c94-80a7-4c63-be02-e425aae883a1" valueTypeId="dbc73078-d10a-46f8-a32d-ae793f5073dc"/>
+    <managerType typeId="c541eb7d-727f-49c2-a1aa-f7f1576269c7" valueTypeId="44ce298a-8e37-4daf-9577-f33be81a5a84"/>
+    <recordSetType typeId="82e71cb6-e70d-4e76-b4f3-ce36dcab46d3" valueTypeId="2b2bf0be-3a68-4314-aacd-4ae3f9e16234"/>
+    <recordKeyType typeId="bbbb1756-4c21-48ba-b775-5aa54f7dc91f" valueTypeId="8c0fa085-28ea-4cd8-ae7c-916cb043cd54"/>
+    <recordType typeId="e9d2b60f-b0a4-4e56-96e2-398555dd48eb" valueTypeId="4619ad08-d2f6-40a3-a337-12b52d14d04b"/>
+  </producedTypes>
+  <name>ПродажаТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажа товара</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="0e968525-1d46-4723-b01d-ac473828bd96">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="892ef0de-f55f-4771-a241-aca7a0c3f223">
+    <name>Себестоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Себестоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="1bf5bd69-3ba2-4e8f-99e5-897ee537daca">
+    <name>СуммаПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма продажи</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="ae7be320-188a-4b55-a537-01fdfe27d57a">
+    <name>СостояниеТовараПриПродаже</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние товара при продаже</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостояниеТовараПриПродаже</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="33acf5e7-2148-4d55-a906-2a77c755752d">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="31043c64-ad2a-4e82-96c6-96f818393dfb">
+    <name>Филиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Филиал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Филиалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

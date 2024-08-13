@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="179974b9-b50c-424b-9102-ee180cf05fe2">
+  <producedTypes>
+    <objectType typeId="ed40df6c-2ece-44c3-849b-d54583f5b085" valueTypeId="bb167012-fb58-43f3-b466-6655176a7cc2"/>
+    <managerType typeId="f4942050-e465-458e-9f2d-a076fbd2e701" valueTypeId="ad26234b-be55-4b96-b3a2-a3ad598720ff"/>
+  </producedTypes>
+  <name>УказаниеМинимальногоОстатка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Указание минимального остатка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УказаниеМинимальногоОстатка.Form.Форма</defaultForm>
+  <forms uuid="7c7f24fb-3462-4170-9b3c-59c8221f8373">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

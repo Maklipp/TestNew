@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.16">
 	<ConfigVersions>
-		<Metadata name="AccountingRegister.РегистрБухгалтерии1" id="971ccfbd-9b21-447a-8f73-7a26f1e84381" configVersion="2ae3b37477671749aa397e32c819ce5e00000000"/>
+		<Metadata name="AccountingRegister.fdsfsd" id="971ccfbd-9b21-447a-8f73-7a26f1e84381" configVersion="a08cac64611e0242b9fd06ec5930b0f200000000">
+			<Metadata name="AccountingRegister.fdsfsd.Attribute.sdfdsfsd" id="56f57e0c-52f7-47b2-ba0f-8c5afd02c6c0"/>
+			<Metadata name="AccountingRegister.fdsfsd.Resource.dsfsdf" id="9269bca2-34d4-4754-86bf-b4dcf202c18f"/>
+			<Metadata name="AccountingRegister.fdsfsd.Dimension.sdfsdf" id="a8e6dc9b-5298-4084-bec6-3d062addb241"/>
+		</Metadata>
 		<Metadata name="AccumulationRegister.БалансПодарочнойКарты" id="63c73e93-9c54-4246-bec5-a8d3e53755cc" configVersion="054f5fc8e7bf324c8b96158ce6233a9300000000">
 			<Metadata name="AccumulationRegister.БалансПодарочнойКарты.Dimension.SN" id="37e81caf-80ae-483d-8e1e-cd69b83123fc"/>
 			<Metadata name="AccumulationRegister.БалансПодарочнойКарты.Dimension.Филиал" id="5f1ad8f3-f939-464a-b899-a0de0040945b"/>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="440c23d1-511a-49fe-9b15-fd6f7bc669d1">
+  <producedTypes>
+    <objectType typeId="d8378d42-9a21-487c-bffe-29a1c967c865" valueTypeId="a6f6ae0a-b8fb-4226-b5fc-56f6115304fa"/>
+    <refType typeId="68107e41-6db1-40e2-921f-e80f0b8649a1" valueTypeId="3ea61bf9-9ece-4b8f-a2ef-ea44709ecc5d"/>
+    <selectionType typeId="f8998dc2-f495-45f3-8a2b-a5a7255be155" valueTypeId="d4d89aa5-4222-4958-9128-da56c86969da"/>
+    <listType typeId="6d86137a-0bcd-4a0c-a7e4-eb8884e43899" valueTypeId="6a15cfd3-6327-4e7a-96ce-fa2dcbae97e7"/>
+    <managerType typeId="e4779df5-8cb1-4328-8148-e8fc618a115f" valueTypeId="3ffce0c3-267e-4715-a692-860196036c72"/>
+  </producedTypes>
+  <name>Кассы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кассы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Кассы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Кассы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Филиалы</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Кассы.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="46081874-adf3-4cb6-879a-deb8dd2585b2">
+    <name>МодельКассы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель кассы</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МоделиКасс</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e32c7b1d-5522-414b-84aa-26a6db9d9d23">
+    <name>ЮрЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юр лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЮридическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5318f932-a0c9-49d2-8724-08db3adc3969">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

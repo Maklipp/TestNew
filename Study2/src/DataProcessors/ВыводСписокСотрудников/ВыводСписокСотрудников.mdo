@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="140d9c92-bdb1-4471-852d-f359f6eb28ff">
+  <producedTypes>
+    <objectType typeId="6db6e0a9-67fb-460a-b7f8-a0e481ce234a" valueTypeId="f5d002c7-81be-4a40-b70e-5f584573ac29"/>
+    <managerType typeId="ef29d6f5-cbff-4124-b41d-97db7f55665a" valueTypeId="ef0d0f13-b89b-4f8f-a5cf-3ecba4e1b317"/>
+  </producedTypes>
+  <name>ВыводСписокСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вывод список сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВыводСписокСотрудников.Form.Форма</defaultForm>
+  <forms uuid="618895db-9234-4352-9c3e-f44c41d9ebae">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="102cf121-1a7b-4eb6-ad63-67b118ae44c5">
+    <name>МакетСотрудники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет сотрудники</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

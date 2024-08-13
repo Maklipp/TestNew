@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99b6b91a-aa08-4f47-afc9-57557fa26acf">
+  <producedTypes>
+    <selectionType typeId="ac2ede89-803c-4e61-ae9b-87dd21869251" valueTypeId="72a7d37d-db2c-4ad3-9d9a-e54c9afb59c6"/>
+    <listType typeId="8402d713-1a40-4ecc-aa2e-f8a984e10e7e" valueTypeId="4a29aa2a-dfca-4cea-964f-8c919094607b"/>
+    <managerType typeId="bea71ff3-aed2-4dc7-8abe-a64d4cf35167" valueTypeId="6c474cd2-eb9e-4376-ad2c-7a91ae0abc18"/>
+    <recordSetType typeId="1c849455-a7a2-4561-9ff5-3ded8f9bb9f5" valueTypeId="1ae9ded9-e221-4190-9456-c803e79c5c32"/>
+    <recordKeyType typeId="3f2ae2e8-a9ed-42d9-8994-0e290f3837cf" valueTypeId="671bc9bb-a0e4-4773-bf14-9a2ed828a8da"/>
+    <recordType typeId="a7e4522a-80f3-4231-8791-f3d11c3aa91b" valueTypeId="eeae1a7f-097f-44e5-8446-fcb415e0e7c4"/>
+    <recordManagerType typeId="ff374a9f-9d7a-4c85-87fd-f9cf0d2b34f7" valueTypeId="bfb82791-669c-47d3-a346-663776be52ec"/>
+  </producedTypes>
+  <name>ИсторияЮрЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>История юр лиц</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a422f46b-ad24-4b6e-a801-f6b30d21189e">
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="4cbd3f01-fcea-4c29-bfc5-f7339b111e1f">
+    <name>ЮрЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юр лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЮридическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ef2bbc7a-db0f-42cb-953d-5a4bbc3597d6">
+    <name>ВидДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид данных</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыДанныхЮрЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

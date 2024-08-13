@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="902d7e94-044d-433e-8c82-babe9f8c19e8">
+  <name>Подсистема1</name>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.Обработка1</content>
+  <content>100fd2e0-2708-4c0d-8354-07b9eab8afcf</content>
+</mdclass:Subsystem>

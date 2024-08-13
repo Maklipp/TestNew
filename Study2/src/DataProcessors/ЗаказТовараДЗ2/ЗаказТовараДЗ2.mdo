@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f74cefff-b42e-4aeb-b878-50995f37065c">
+  <producedTypes>
+    <objectType typeId="3fa7db41-e76a-4c3a-a02f-a8271c0131e9" valueTypeId="045b5a55-0e32-489e-8b76-ccadb96e8673"/>
+    <managerType typeId="0577040f-ae12-4627-ae68-d6e80fbb0954" valueTypeId="51bc867a-e54e-42ff-86e7-17cd49571a31"/>
+  </producedTypes>
+  <name>ЗаказТовараДЗ2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказ товара д з2</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗаказТовараДЗ2.Form.Форма</defaultForm>
+  <forms uuid="ca1c070f-9528-4f4c-b7eb-eea15acf357a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1233c3a9-a16d-49be-a5ec-8d53dcb5fdd3">
+  <producedTypes>
+    <objectType typeId="c7a6c2cc-dea6-4ff0-aaa8-a066a3735b7b" valueTypeId="23517761-f524-4a08-a8b0-6326de30e3ce"/>
+    <refType typeId="c175f735-6a2a-4d98-9b2f-895f8cd732f4" valueTypeId="5b6c1299-a0f9-488b-9e79-799b799fc03a"/>
+    <selectionType typeId="bee5fd82-2bbb-4a9d-b7c2-ec5f586422a5" valueTypeId="2e3d2c9e-ac5a-4187-b2d7-55463a2c7f0a"/>
+    <listType typeId="6f4a745b-ddb2-4035-97e4-15b6617c5854" valueTypeId="a36f3d56-6b00-4bd2-9bd4-b6410761e2fe"/>
+    <managerType typeId="3695733c-dd97-4a52-9399-88ece132722a" valueTypeId="5299a97e-6c09-4cc3-a349-1ea33acdb991"/>
+  </producedTypes>
+  <name>Тест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Тест.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Тест.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="04c74ebe-e58c-4927-9d4c-e5b8320e9344">
+    <name>Тест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="f018088c-eaca-4cad-9bcd-4b3c81a0296a">
+    <producedTypes>
+      <objectType typeId="17f122d1-0c51-45ab-a739-a4a550ce6e62" valueTypeId="9e70c053-9104-41c7-955e-4c9485a18e4b"/>
+      <rowType typeId="499af8bd-9703-44ca-8a2b-36ab1059bed4" valueTypeId="3bc1266b-fafa-44bb-87f6-f7e099e5479b"/>
+    </producedTypes>
+    <name>табл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табл</value>
+    </synonym>
+  </tabularSections>
+</mdclass:Catalog>

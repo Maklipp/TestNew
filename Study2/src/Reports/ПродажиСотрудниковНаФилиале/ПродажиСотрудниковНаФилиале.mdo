@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="774ca3b6-94bb-47a4-ac2c-4819d20824a7">
+  <producedTypes>
+    <objectType typeId="054c47a8-4a68-42e4-9cae-e7e9f5600541" valueTypeId="dea3401d-4c8a-417e-8914-18fc0dc904ec"/>
+    <managerType typeId="746b26db-60ad-4c56-97bf-bdb63bed8a68" valueTypeId="26e6853d-2c93-4ee0-9824-a49bbac4bb8c"/>
+  </producedTypes>
+  <name>ПродажиСотрудниковНаФилиале</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи сотрудников на филиале</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ПродажиСотрудниковНаФилиале.Form.ФормаОтчета</defaultForm>
+  <defaultSettingsForm>Report.ПродажиСотрудниковНаФилиале.Form.ФормаРасшифровки</defaultSettingsForm>
+  <forms uuid="422cbfe6-093c-41f3-b553-180003d65165">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f6c6b308-03a3-42a1-afa0-ed45229e2845">
+    <name>ФормаРасшифровки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма расшифровки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a7f9a92d-803e-42ef-951d-d792a7ce11f5">
+    <name>ПродажиНаФилиале</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажи на филиале</value>
+    </synonym>
+  </templates>
+  <templates uuid="e85a5912-2369-4e93-b8fa-10a026b12ba7">
+    <name>ПродажиСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажи сотрудника</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

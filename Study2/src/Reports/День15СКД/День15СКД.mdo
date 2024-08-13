@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2daed5d-3a9d-47c2-8d86-de1f6fecf264">
+  <producedTypes>
+    <objectType typeId="099aae24-58f1-432b-93f6-418acc6e3ce2" valueTypeId="643fb176-ee10-4e58-a23a-205cffc3dcf0"/>
+    <managerType typeId="3fe1f368-6f76-41a6-90b8-51c26a6342b3" valueTypeId="00794cab-b639-42dc-8f96-8d1a3a05cdea"/>
+  </producedTypes>
+  <name>День15СКД</name>
+  <synonym>
+    <key>ru</key>
+    <value>День15 СКД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.День15СКД.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="0e9dae59-8f49-49a4-a679-4596b064cb90">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

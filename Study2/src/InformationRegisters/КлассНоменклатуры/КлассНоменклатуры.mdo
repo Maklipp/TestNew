@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17d02e79-1f33-4235-a8df-8e2f36f6de6c">
+  <producedTypes>
+    <selectionType typeId="ae81a227-052b-4e19-8d3c-fbd2ed0b577f" valueTypeId="0811ace1-d78b-4348-8e5d-74901877747a"/>
+    <listType typeId="96b60dfb-e9d9-40d7-aae3-a77c33316571" valueTypeId="bdf7bac6-f577-45ed-a613-dd1916ae19a2"/>
+    <managerType typeId="bdd20b1e-c30f-46d1-8c73-c7ea4f3f0801" valueTypeId="7d9a5716-b9de-4c9e-bba6-93216ce54ec2"/>
+    <recordSetType typeId="856f695f-9e21-4137-9272-28086c3aec3a" valueTypeId="233bdd76-90ee-47a4-b6a0-4adada066250"/>
+    <recordKeyType typeId="765c013c-640a-46e9-8390-539b30090da9" valueTypeId="afb6307d-6867-4439-987c-c630ffd3d1c3"/>
+    <recordType typeId="99dc5d76-a932-4ac7-b3ee-c877468a70f6" valueTypeId="59656344-1b52-4062-a233-c87e32d6ee56"/>
+    <recordManagerType typeId="351e11c8-ddda-44e7-9230-814364ab97ae" valueTypeId="04695682-e984-4e50-bfdf-14e769a52e8b"/>
+  </producedTypes>
+  <name>КлассНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Класс номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="452adcec-b939-487a-ba18-57e84ac7226b">
+    <name>Класс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Класс</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КлассНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4669c587-c6e1-4392-b236-34574c322232">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
