@@ -154,7 +154,7 @@
 		<Metadata name="CommonPicture.ИконкиДляСписковТовара.Picture" id="d1ff8da2-d88e-4e1b-856b-72e5f1b1e623.0" configVersion="a9dc3adca463fc4297794f7f5b6b82b700000000"/>
 		<Metadata name="CommonTemplate.Макет" id="4c29ba6e-3a5c-4c94-bacc-897b8316f94f" configVersion="6467a5d915e70b46a6347503a11a53ff00000000"/>
 		<Metadata name="CommonTemplate.Макет.Template" id="4c29ba6e-3a5c-4c94-bacc-897b8316f94f.0" configVersion="fb817e11a058a54c965763a00040b30800000000"/>
-		<Metadata name="Configuration.Конфигурация" id="76dc7228-21dc-4992-975b-4a64970eda96" configVersion="7a6241295a2c204b9003bb3cc3713eb300000000"/>
+		<Metadata name="Configuration.Конфигурация" id="76dc7228-21dc-4992-975b-4a64970eda96" configVersion="3d13c63976c0164c85a22e6b570bbd4400000000"/>
 		<Metadata name="Configuration.Конфигурация.ClientApplicationInterface" id="567e800a-083b-43c5-bc84-c73941c22010.b" configVersion="82a23a3b474e204a8ad52151bb48390500000000"/>
 		<Metadata name="Configuration.Конфигурация.CommandInterface" id="567e800a-083b-43c5-bc84-c73941c22010.a" configVersion="d2f0626796301e4e9fdab9b8fad84a6100000000"/>
 		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="567e800a-083b-43c5-bc84-c73941c22010.8" configVersion="a5e3593f01618144b4b9dabc3bece02500000000"/>
@@ -753,5 +753,9 @@
 		<Metadata name="Subsystem.Тест" id="3a9d2add-cc00-45ff-97db-6fdb0cc1ea83" configVersion="f400586f0b35934f949cf1e12072033100000000"/>
 		<Metadata name="Subsystem.Тест.CommandInterface" id="3a9d2add-cc00-45ff-97db-6fdb0cc1ea83.1" configVersion="97dd5b67cc18ab4bb4db1524bb61d6ed00000000"/>
 		<Metadata name="Task.Задача1" id="305887ef-9b8b-4329-9489-38e0ac7ab56d" configVersion="1f9fd2b016160e47b70c41a8062d468a00000000"/>
+		<Metadata name="Task.Задача2" id="aabfb132-ed64-4328-8fff-6d77943bc3be" configVersion="b022e2b5489e2e4195aa21c6db4a2a2800000000"/>
+		<Metadata name="Task.Задача3" id="f4ac2fca-0d0a-41cd-8d32-edf890e1c09a" configVersion="3837e59d99c7fa4d8582d50cf7f0e39000000000"/>
+		<Metadata name="Task.Задача4" id="80e7307d-f8b0-4362-82f5-244d6acd2031" configVersion="a4a2e18bb4e1f249ae30066a09022d4c00000000"/>
+		<Metadata name="Task.Задача5" id="e26fcdce-5e74-429f-bbc9-d37bd2ca7242" configVersion="6220ec789e1f9449a447b6eade8abd1100000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

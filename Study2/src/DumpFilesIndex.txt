@@ -168,6 +168,10 @@ bccb5a1c-8027-4148-9218-fdbd7a2c67a9:00D734806B4CA46141BB2D26CE8A36BA:3:Reports\
 3a9d2add-cc00-45ff-97db-6fdb0cc1ea83_CommandInterface.cmi:681174787BFCD4F27B415871CE4388F5:3:Subsystems\Тест\CommandInterface.cmi
 3a9d2add-cc00-45ff-97db-6fdb0cc1ea83:8DDCCD11E354BBA0AA961B8CEE8B35A2:3:Subsystems\Тест\Тест.mdo
 305887ef-9b8b-4329-9489-38e0ac7ab56d:62A0B578AB8CB9AF9ED637A23D86D55C:3:Tasks\Задача1\Задача1.mdo
+aabfb132-ed64-4328-8fff-6d77943bc3be:03A01A826CEFF25CF5BC973B22D8141D:3:Tasks\Задача2\Задача2.mdo
+f4ac2fca-0d0a-41cd-8d32-edf890e1c09a:CFD80074316DEA02B95BA4074813F197:3:Tasks\Задача3\Задача3.mdo
+80e7307d-f8b0-4362-82f5-244d6acd2031:BD2C579B30761934FB88278A832B0BEE:3:Tasks\Задача4\Задача4.mdo
+e26fcdce-5e74-429f-bbc9-d37bd2ca7242:E6C93F6900F0297C883F130F7487F95D:3:Tasks\Задача5\Задача5.mdo
 c745be22-4543-44b5-9778-9ce151741ba4_Help\ru.html:B0FF5A9948C0C50B8A7FEE744ECBA9FC:4:DataProcessors\КонсольЗапросов\Help\ru.html
 1d20edae-61be-40e8-8edf-147f459ecdad_Form.form:24A54EE42015B8084CACA36FC9DD0ED8:5:AccumulationRegisters\ЗаказанныеТовары\Forms\ФормаСписка\Form.form
 ec9b0966-31d1-4971-b96b-4748d05e1b97_Form.form:0C0DF22DA7ED0895358A6EFA2377689C:5:Catalogs\БанковскиеСчета\Forms\ФормаСписка\Form.form
