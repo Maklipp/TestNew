@@ -4,9 +4,12 @@
 76dc7228-21dc-4992-975b-4a64970eda96:D238D3B1CDCBA3B9B79589DD28706977:2:Configuration\Configuration.mdo
 76dc7228-21dc-4992-975b-4a64970eda96_HomePageWorkArea.hpwa:AC64D1BD64CA36C6D9ECA616F68D8CF3:2:Configuration\HomePageWorkArea.hpwa
 76dc7228-21dc-4992-975b-4a64970eda96_SessionModule.bsl:A2CD90DC9ED85B14A6256BCF27AA6729:2:Configuration\SessionModule.bsl
+971ccfbd-9b21-447a-8f73-7a26f1e84381:CDD5482B61A78C21D8C889C0C799A8C1:3:AccountingRegisters\РегистрБухгалтерии1\РегистрБухгалтерии1.mdo
+2aedca5e-9067-4f34-9e7a-a0d16ff7431b:D6C695D906BC4CD738BF729A4D24489A:3:BusinessProcesses\БизнесПроцесс1\БизнесПроцесс1.mdo
 f84a7dd7-301e-42de-9be9-8e3426c07187_ManagerModule.bsl:8140FD6FCDE5803F73C5AFC6554EB17B:3:Catalogs\Города\ManagerModule.bsl
 f84a7dd7-301e-42de-9be9-8e3426c07187:A3BB3818E607329F07AB20FED9227F19:3:Catalogs\Города\Города.mdo
 7104ec83-b432-46ec-9a5d-21f14a2c0b6c:92EF45FE7179C46D271A98DAD33BEFBC:3:Constants\Константа1\Константа1.mdo
 7140bbcd-77fb-4fea-b874-2a13dfd27910_Rights.rights:358059E6DC417711E0C76BADB02F4F8B:3:Roles\Роль1\Rights.rights
 7140bbcd-77fb-4fea-b874-2a13dfd27910:50C81457DCAEB470D91ED002844FB83B:3:Roles\Роль1\Роль1.mdo
+305887ef-9b8b-4329-9489-38e0ac7ab56d:62A0B578AB8CB9AF9ED637A23D86D55C:3:Tasks\Задача1\Задача1.mdo
 33d287dc-33d5-4c8a-b312-c32c85fe5506_Form.form:5C9B6BC1B7055CCD134765C968CE157A:5:Catalogs\Города\Forms\ФормаЭлемента\Form.form

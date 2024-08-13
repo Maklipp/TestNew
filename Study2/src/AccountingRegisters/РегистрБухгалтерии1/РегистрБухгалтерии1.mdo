@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="971ccfbd-9b21-447a-8f73-7a26f1e84381">
+  <producedTypes>
+    <selectionType typeId="4ad8c544-f54b-43c3-a7ce-448d00f6a596" valueTypeId="38461483-c270-4e3d-a6b8-7b35d9dfda38"/>
+    <listType typeId="05dbaec2-8638-476d-b5c0-0418ddf01613" valueTypeId="0a8424cb-de81-480e-a05f-33fff3f9d78b"/>
+    <managerType typeId="8b766754-d3ec-4a77-aef7-645aac93f1e2" valueTypeId="d2e9ad32-e887-425b-a83d-d8b11ecae3b2"/>
+    <recordSetType typeId="381a3ea3-81f0-4115-bf94-b86c42698683" valueTypeId="0460fda3-7aaf-42e2-9c58-8bf3c18eca19"/>
+    <recordKeyType typeId="89fb85dd-cad5-4e5c-8934-c429d53a0609" valueTypeId="2ae8921b-9f55-4bc3-a38e-1e0b7f764c0f"/>
+    <recordType typeId="6f5b7e4f-9ba2-4c33-a135-c5d497a02c3c" valueTypeId="33423264-58f5-4a66-98d2-97a9241000f8"/>
+    <extDimensionsType typeId="bad36602-a816-4605-a716-22f853dda7a9" valueTypeId="387c877b-fa27-4ef4-93bb-4bdaa2143d02"/>
+  </producedTypes>
+  <name>РегистрБухгалтерии1</name>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+</mdclass:AccountingRegister>
