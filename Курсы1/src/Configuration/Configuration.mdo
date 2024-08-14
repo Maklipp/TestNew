@@ -47,6 +47,7 @@
   <commonModules>CommonModule.ПодпискиНаСобытия</commonModules>
   <commonModules>CommonModule.ОбщийМодуль1</commonModules>
   <commonModules>CommonModule.ОбщийМодуль2</commonModules>
+  <commonModules>CommonModule.ОбщийМодуль3</commonModules>
   <eventSubscriptions>EventSubscription.УстановкаАвтораПриКопировании</eventSubscriptions>
   <constants>Constant.ДатаЗапретаРедактирования</constants>
   <constants>Constant.ТекущаяСтавкаНДС</constants>
