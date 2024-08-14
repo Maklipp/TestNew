@@ -148,13 +148,15 @@
 		<Metadata name="CommonForm.ФормаКонстант.Form" id="d9a80e48-84af-43d1-a845-0cf985f0c332.0" configVersion="2edbf78153bdbb43a9eac0eb21306d3200000000"/>
 		<Metadata name="CommonModule.ОбработкаТабличнойЧастиКлиента" id="bc87253a-931f-4698-9f04-67ac7e458303" configVersion="753325ff0b22cc45845f5d78de6ce25900000000"/>
 		<Metadata name="CommonModule.ОбработкаТабличнойЧастиКлиента.Module" id="bc87253a-931f-4698-9f04-67ac7e458303.0" configVersion="5e01ee567975a946b5d5b0f00cc4f62600000000"/>
+		<Metadata name="CommonModule.ОбщийМодуль1" id="104528c6-d1c5-41bd-836a-e7eb5f1d0c18" configVersion="986cebc583749b468ad3535d13e409e700000000"/>
+		<Metadata name="CommonModule.ОбщийМодуль2" id="729ba175-f0f6-485e-98f6-7ddd40ffe859" configVersion="246100264d215d4c91cbae76e760984000000000"/>
 		<Metadata name="CommonModule.ПодпискиНаСобытия" id="be8107e0-398c-4236-a13d-56d94a66c7b2" configVersion="9b6d5bcc52cbbe4d9d3838e14bbca67900000000"/>
 		<Metadata name="CommonModule.ПодпискиНаСобытия.Module" id="be8107e0-398c-4236-a13d-56d94a66c7b2.0" configVersion="e661c8c0be452c4ca04722488a6ce9a600000000"/>
 		<Metadata name="CommonPicture.ИконкиДляСписковТовара" id="d1ff8da2-d88e-4e1b-856b-72e5f1b1e623" configVersion="c7c6d09aa514fe48aef79f395f2fbf0c00000000"/>
 		<Metadata name="CommonPicture.ИконкиДляСписковТовара.Picture" id="d1ff8da2-d88e-4e1b-856b-72e5f1b1e623.0" configVersion="a9dc3adca463fc4297794f7f5b6b82b700000000"/>
 		<Metadata name="CommonTemplate.Макет" id="4c29ba6e-3a5c-4c94-bacc-897b8316f94f" configVersion="6467a5d915e70b46a6347503a11a53ff00000000"/>
 		<Metadata name="CommonTemplate.Макет.Template" id="4c29ba6e-3a5c-4c94-bacc-897b8316f94f.0" configVersion="fb817e11a058a54c965763a00040b30800000000"/>
-		<Metadata name="Configuration.Конфигурация" id="76dc7228-21dc-4992-975b-4a64970eda96" configVersion="3d13c63976c0164c85a22e6b570bbd4400000000"/>
+		<Metadata name="Configuration.Конфигурация" id="76dc7228-21dc-4992-975b-4a64970eda96" configVersion="25d8fea56fffb343be0dc102412173ae00000000"/>
 		<Metadata name="Configuration.Конфигурация.ClientApplicationInterface" id="567e800a-083b-43c5-bc84-c73941c22010.b" configVersion="82a23a3b474e204a8ad52151bb48390500000000"/>
 		<Metadata name="Configuration.Конфигурация.CommandInterface" id="567e800a-083b-43c5-bc84-c73941c22010.a" configVersion="d2f0626796301e4e9fdab9b8fad84a6100000000"/>
 		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="567e800a-083b-43c5-bc84-c73941c22010.8" configVersion="a5e3593f01618144b4b9dabc3bece02500000000"/>

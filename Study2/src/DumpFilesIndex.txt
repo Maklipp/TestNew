@@ -34,6 +34,8 @@ d9a80e48-84af-43d1-a845-0cf985f0c332_Form.form:D1A974CFFD2C74A2B58202AAA0011900:
 d9a80e48-84af-43d1-a845-0cf985f0c332:DF305E0A80048BBB826F2C048BBDEB89:3:CommonForms\ФормаКонстант\ФормаКонстант.mdo
 bc87253a-931f-4698-9f04-67ac7e458303_Module.bsl:4D1E610CC4C4A904B2E4E50B20AA78A5:3:CommonModules\ОбработкаТабличнойЧастиКлиента\Module.bsl
 bc87253a-931f-4698-9f04-67ac7e458303:AA596F891236CC9D1D5393C581FAA3AD:3:CommonModules\ОбработкаТабличнойЧастиКлиента\ОбработкаТабличнойЧастиКлиента.mdo
+104528c6-d1c5-41bd-836a-e7eb5f1d0c18:FDBD6C98A49682E7C12413E842D5B03F:3:CommonModules\ОбщийМодуль1\ОбщийМодуль1.mdo
+729ba175-f0f6-485e-98f6-7ddd40ffe859:B33C1C5A8C1FB47D98AA4773891887BD:3:CommonModules\ОбщийМодуль2\ОбщийМодуль2.mdo
 be8107e0-398c-4236-a13d-56d94a66c7b2_Module.bsl:915D0460760587CF05D703E8770EDF01:3:CommonModules\ПодпискиНаСобытия\Module.bsl
 be8107e0-398c-4236-a13d-56d94a66c7b2:11D3D3CACC3FB7390DE97E1355324699:3:CommonModules\ПодпискиНаСобытия\ПодпискиНаСобытия.mdo
 d1ff8da2-d88e-4e1b-856b-72e5f1b1e623_Picture.png:C2B10EF6BDFC937426F50BFC98C73D1B:3:CommonPictures\ИконкиДляСписковТовара\Picture.png
