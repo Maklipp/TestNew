@@ -48,6 +48,7 @@
   <commonModules>CommonModule.ОбщийМодуль1</commonModules>
   <commonModules>CommonModule.ОбщийМодуль2</commonModules>
   <commonModules>CommonModule.ОбщийМодуль3</commonModules>
+  <commonModules>CommonModule.ОбщийМодуль4</commonModules>
   <eventSubscriptions>EventSubscription.УстановкаАвтораПриКопировании</eventSubscriptions>
   <constants>Constant.ДатаЗапретаРедактирования</constants>
   <constants>Constant.ТекущаяСтавкаНДС</constants>
@@ -162,8 +163,6 @@
   <accumulationRegisters>AccumulationRegister.ЗаказанныеТовары</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ТранзитТоваров</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеСвойстваТовара</chartsOfCharacteristicTypes>
-  <accountingRegisters>AccountingRegister.fdsfsd</accountingRegisters>
-  <businessProcesses>BusinessProcess.БизнесПроцесс1</businessProcesses>
   <tasks>Task.Задача1</tasks>
   <tasks>Task.Задача2</tasks>
   <tasks>Task.Задача3</tasks>

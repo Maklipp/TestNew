@@ -4,14 +4,12 @@
 76dc7228-21dc-4992-975b-4a64970eda96:D238D3B1CDCBA3B9B79589DD28706977:2:Configuration\Configuration.mdo
 76dc7228-21dc-4992-975b-4a64970eda96_HomePageWorkArea.hpwa:AC64D1BD64CA36C6D9ECA616F68D8CF3:2:Configuration\HomePageWorkArea.hpwa
 76dc7228-21dc-4992-975b-4a64970eda96_SessionModule.bsl:A2CD90DC9ED85B14A6256BCF27AA6729:2:Configuration\SessionModule.bsl
-971ccfbd-9b21-447a-8f73-7a26f1e84381:3CB979895DF154425517F6BA84C72C56:3:AccountingRegisters\fdsfsd\fdsfsd.mdo
 63c73e93-9c54-4246-bec5-a8d3e53755cc:0AB1527BD7441CAFE7B3C0127A80D9D9:3:AccumulationRegisters\БалансПодарочнойКарты\БалансПодарочнойКарты.mdo
 69666e47-497a-410f-afcf-f5b214436b0d:21C061BE482326F77D2BF84DA52E7B5E:3:AccumulationRegisters\ЗаказанныеТовары\ЗаказанныеТовары.mdo
 2ee1f655-626d-490d-a53b-f92da8574a3e:A6E14D73D72913C7FD12184A211D079F:3:AccumulationRegisters\ОстаткиТовара\ОстаткиТовара.mdo
 20cf9017-0b8f-42be-8dec-2fa5817b3703:AA9FE4CA142A30C18BD71852782446B4:3:AccumulationRegisters\ПродажаТовара\ПродажаТовара.mdo
 0bab80ef-a259-49ce-b094-325afde8e259:00F314A6A6EAD8457B9166D3C7B18029:3:AccumulationRegisters\ТранзитТоваров\ТранзитТоваров.mdo
 9e3a6aea-a412-48c0-97de-48652fd7f115:FFBDCC744108AAF779A901692433BD17:3:AccumulationRegisters\УценкаТовара\УценкаТовара.mdo
-2aedca5e-9067-4f34-9e7a-a0d16ff7431b:D6C695D906BC4CD738BF729A4D24489A:3:BusinessProcesses\БизнесПроцесс1\БизнесПроцесс1.mdo
 b3e5fce3-4b12-44a0-a501-1f06ef8202ec:5B94048EE2317EA3FD8747E74F0B5066:3:Catalogs\Банки\Банки.mdo
 1d01b1c6-37b4-410d-bf94-67883c4a9868:E42BFB92B2DB6670F71BBCA2FB6515E8:3:Catalogs\БанковскиеСчета\БанковскиеСчета.mdo
 f84a7dd7-301e-42de-9be9-8e3426c07187_ManagerModule.bsl:8140FD6FCDE5803F73C5AFC6554EB17B:3:Catalogs\Города\ManagerModule.bsl
@@ -37,6 +35,7 @@ bc87253a-931f-4698-9f04-67ac7e458303:AA596F891236CC9D1D5393C581FAA3AD:3:CommonMo
 104528c6-d1c5-41bd-836a-e7eb5f1d0c18:FDBD6C98A49682E7C12413E842D5B03F:3:CommonModules\ОбщийМодуль1\ОбщийМодуль1.mdo
 729ba175-f0f6-485e-98f6-7ddd40ffe859:B33C1C5A8C1FB47D98AA4773891887BD:3:CommonModules\ОбщийМодуль2\ОбщийМодуль2.mdo
 9d2a3d5d-c1c6-44a2-8608-099d55b2c972:432BD7BA8D43B018810198FFA9052FCF:3:CommonModules\ОбщийМодуль3\ОбщийМодуль3.mdo
+21552ad6-173d-4bf3-b761-36a1b4b9b330:7EE0D0BE92FDC67A7A2C2BCE4C4A1F3D:3:CommonModules\ОбщийМодуль4\ОбщийМодуль4.mdo
 be8107e0-398c-4236-a13d-56d94a66c7b2_Module.bsl:915D0460760587CF05D703E8770EDF01:3:CommonModules\ПодпискиНаСобытия\Module.bsl
 be8107e0-398c-4236-a13d-56d94a66c7b2:11D3D3CACC3FB7390DE97E1355324699:3:CommonModules\ПодпискиНаСобытия\ПодпискиНаСобытия.mdo
 d1ff8da2-d88e-4e1b-856b-72e5f1b1e623_Picture.png:C2B10EF6BDFC937426F50BFC98C73D1B:3:CommonPictures\ИконкиДляСписковТовара\Picture.png

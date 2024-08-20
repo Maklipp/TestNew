@@ -1,11 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.16">
 	<ConfigVersions>
-		<Metadata name="AccountingRegister.fdsfsd" id="971ccfbd-9b21-447a-8f73-7a26f1e84381" configVersion="a08cac64611e0242b9fd06ec5930b0f200000000">
-			<Metadata name="AccountingRegister.fdsfsd.Attribute.sdfdsfsd" id="56f57e0c-52f7-47b2-ba0f-8c5afd02c6c0"/>
-			<Metadata name="AccountingRegister.fdsfsd.Resource.dsfsdf" id="9269bca2-34d4-4754-86bf-b4dcf202c18f"/>
-			<Metadata name="AccountingRegister.fdsfsd.Dimension.sdfsdf" id="a8e6dc9b-5298-4084-bec6-3d062addb241"/>
-		</Metadata>
 		<Metadata name="AccumulationRegister.БалансПодарочнойКарты" id="63c73e93-9c54-4246-bec5-a8d3e53755cc" configVersion="054f5fc8e7bf324c8b96158ce6233a9300000000">
 			<Metadata name="AccumulationRegister.БалансПодарочнойКарты.Dimension.SN" id="37e81caf-80ae-483d-8e1e-cd69b83123fc"/>
 			<Metadata name="AccumulationRegister.БалансПодарочнойКарты.Dimension.Филиал" id="5f1ad8f3-f939-464a-b899-a0de0040945b"/>
@@ -47,7 +42,6 @@
 			<Metadata name="AccumulationRegister.УценкаТовара.Dimension.SN" id="f99881ad-fcf2-4cf5-bf62-4dc2dae8c88a"/>
 			<Metadata name="AccumulationRegister.УценкаТовара.Resource.СуммаУценки" id="fbde097a-a32f-4fcf-a25f-d192d1a30c60"/>
 		</Metadata>
-		<Metadata name="BusinessProcess.БизнесПроцесс1" id="2aedca5e-9067-4f34-9e7a-a0d16ff7431b" configVersion="c48d3b9406ffc447ba233d29e64e4f7400000000"/>
 		<Metadata name="Catalog.Банки" id="b3e5fce3-4b12-44a0-a501-1f06ef8202ec" configVersion="d030919d4cb8cc44b13c6484cdfd0a2300000000">
 			<Metadata name="Catalog.Банки.Attribute.ИНН" id="2066eec8-ac69-4d1c-b949-2c697119a995"/>
 			<Metadata name="Catalog.Банки.Attribute.КПП" id="5860f3d8-3522-47d4-8b7c-87e120e042f6"/>
@@ -151,13 +145,14 @@
 		<Metadata name="CommonModule.ОбщийМодуль1" id="104528c6-d1c5-41bd-836a-e7eb5f1d0c18" configVersion="986cebc583749b468ad3535d13e409e700000000"/>
 		<Metadata name="CommonModule.ОбщийМодуль2" id="729ba175-f0f6-485e-98f6-7ddd40ffe859" configVersion="246100264d215d4c91cbae76e760984000000000"/>
 		<Metadata name="CommonModule.ОбщийМодуль3" id="9d2a3d5d-c1c6-44a2-8608-099d55b2c972" configVersion="aef2442662ceeb4cb240b0657197204e00000000"/>
+		<Metadata name="CommonModule.ОбщийМодуль4" id="21552ad6-173d-4bf3-b761-36a1b4b9b330" configVersion="16a66ca88001874295e5bf7e2a585ea900000000"/>
 		<Metadata name="CommonModule.ПодпискиНаСобытия" id="be8107e0-398c-4236-a13d-56d94a66c7b2" configVersion="9b6d5bcc52cbbe4d9d3838e14bbca67900000000"/>
 		<Metadata name="CommonModule.ПодпискиНаСобытия.Module" id="be8107e0-398c-4236-a13d-56d94a66c7b2.0" configVersion="e661c8c0be452c4ca04722488a6ce9a600000000"/>
 		<Metadata name="CommonPicture.ИконкиДляСписковТовара" id="d1ff8da2-d88e-4e1b-856b-72e5f1b1e623" configVersion="c7c6d09aa514fe48aef79f395f2fbf0c00000000"/>
 		<Metadata name="CommonPicture.ИконкиДляСписковТовара.Picture" id="d1ff8da2-d88e-4e1b-856b-72e5f1b1e623.0" configVersion="a9dc3adca463fc4297794f7f5b6b82b700000000"/>
 		<Metadata name="CommonTemplate.Макет" id="4c29ba6e-3a5c-4c94-bacc-897b8316f94f" configVersion="6467a5d915e70b46a6347503a11a53ff00000000"/>
 		<Metadata name="CommonTemplate.Макет.Template" id="4c29ba6e-3a5c-4c94-bacc-897b8316f94f.0" configVersion="fb817e11a058a54c965763a00040b30800000000"/>
-		<Metadata name="Configuration.Конфигурация" id="76dc7228-21dc-4992-975b-4a64970eda96" configVersion="84d2ed445b9b2b4a9ad73f222c3c2eb200000000"/>
+		<Metadata name="Configuration.Конфигурация" id="76dc7228-21dc-4992-975b-4a64970eda96" configVersion="7fd984c1819f9c4aad27556ff59d91e700000000"/>
 		<Metadata name="Configuration.Конфигурация.ClientApplicationInterface" id="567e800a-083b-43c5-bc84-c73941c22010.b" configVersion="82a23a3b474e204a8ad52151bb48390500000000"/>
 		<Metadata name="Configuration.Конфигурация.CommandInterface" id="567e800a-083b-43c5-bc84-c73941c22010.a" configVersion="d2f0626796301e4e9fdab9b8fad84a6100000000"/>
 		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="567e800a-083b-43c5-bc84-c73941c22010.8" configVersion="a5e3593f01618144b4b9dabc3bece02500000000"/>
